@@ -16,7 +16,7 @@ LkdList<T>::LkdList(T* vals, int N)
 template<class T>
 void LkdList<T>::makeCir(int cirN)
 {
-	if(this->checkCyclic())
+	if(alist->checkCyclic())
 	{
 		std::cout<<"already cir"<<std::endl;
 		return;

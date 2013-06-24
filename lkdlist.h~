@@ -30,7 +30,7 @@ public:
 
 	void initN(int N);
 	void initCir(int N,int cirN);
-	void makeCir(int cirN);
+	void makeCir();
 	int checkCyclic(LkdList<T> **cirpoint=NULL);
 	void insert(LkdList<T>* alist);
 	static void insertAtN(LkdList<T>* &thelist,LkdList<T>* alist,int N);
